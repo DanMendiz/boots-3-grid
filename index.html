@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="display-1 text-center text-primary">The Grid System</h1>
+      <div class="row">
+        <div class="col-2 bg-success">I'm 2 units</div>
+        <div class="col-8 bg-info">I'm 8 units</div>
+        <div class="col-2 bg-danger">I'm 2 units</div>
+      </div>
+      <div class="row">
+        <div class="col-3 bg-success">I'm 3 units</div>
+        <div class="col-6 bg-info">I'm 6 units</div>
+        <div class="col-3 bg-danger">I'm 3 units</div>
+      </div>
+      <div class="row">
+        <div class="col bg-success">I'm 12 units</div>
+      </div>
+    </div>
+
+    <!-- responsive grid -->
+    <div class="container">
+      <h2 class="display-4">Responsive Grid</h2>
+      <div class="row">
+        <div class="col-md-6 col-xl-3 bg-info">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat
+          quaerat dignissimos vel, velit suscipit perspiciatis? Doloremque et
+          non quaerat, animi doloribus recusandae minus modi illum temporibus a
+          suscipit, veritatis eos!
+        </div>
+        <div class="col-md-6 col-xl-3 bg-success">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat
+          quaerat dignissimos vel, velit suscipit perspiciatis? Doloremque et
+          non quaerat, animi doloribus recusandae minus modi illum temporibus a
+          suscipit, veritatis eos!
+        </div>
+        <div class="col-md-6 col-xl-3 bg-info">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat
+          quaerat dignissimos vel, velit suscipit perspiciatis? Doloremque et
+          non quaerat, animi doloribus recusandae minus modi illum temporibus a
+          suscipit, veritatis eos!
+        </div>
+        <div class="col-md-6 col-xl-3 bg-success">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat
+          quaerat dignissimos vel, velit suscipit perspiciatis? Doloremque et
+          non quaerat, animi doloribus recusandae minus modi illum temporibus a
+          suscipit, veritatis eos!
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2 class="display-4">Align Items</h2>
+      <div class="row d-flex align-items-start">
+        <div class="col-md-6 col-xl-3 bg-info">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat
+          quaerat dignissimos vel, velit suscipit perspiciatis? Doloremque et
+          non quaerat, animi doloribus recusandae minus modi illum temporibus a
+          suscipit, veritatis eos!
+        </div>
+        <div class="col-md-6 col-xl-3 bg-success">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat
+          quaerat dignissimos vel, velit suscipit perspiciatis? Doloremque et
+          non quaerat, animi doloribus recusandae minus modi illum temporibus a
+          suscipit, veritatis eos!
+        </div>
+        <div class="col-md-6 col-xl-3 bg-info">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat
+          quaerat dignissimos vel, velit suscipit perspiciatis? Doloremque et
+          non quaerat, animi doloribus recusandae minus modi illum temporibus a
+          suscipit, veritatis eos!
+        </div>
+        <div class="col-md-6 col-xl-3 bg-success">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat
+          quaerat dignissimos vel, velit suscipit perspiciatis? Doloremque et
+          non quaerat, animi doloribus recusandae minus modi illum temporibus a
+          suscipit, veritatis eos!
+        </div>
+      </div>
+    </div>
+
+    <!-- image fluid -->
+    <div class="container">
+      <h2 class="display-4">Image Fluid</h2>
+      <div class="row g-0">
+        <!-- .g-0 = no gutters -->
+        <div class="col-xl-4 col-md-6">
+          <img
+            class="img-fluid"
+            src="https://plus.unsplash.com/premium_photo-1700486008994-f6e8cd8dae11?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDh8fHxlbnwwfHx8fHw%3D"
+            alt=""
+          />
+        </div>
+        <div class="col-xl-4 col-md-6">
+          <img
+            class="img-fluid"
+            src="https://images.unsplash.com/photo-1699401984740-3199cc4124bd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fHw%3D"
+            alt=""
+          />
+        </div>
+        <div class="col-xl-4 col-md-6">
+          <img
+            class="img-fluid"
+            src="https://images.unsplash.com/photo-1707448249385-a2af629bb558?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fHw%3D"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
